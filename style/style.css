@@ -1,0 +1,268 @@
+*{
+    margin: 0;
+    font-family: 'Work Sans';
+}
+
+/* Navigation Section Styles */
+
+nav ul{
+    display: flex;
+    justify-content: right;
+}
+
+nav li{
+    list-style: none;
+    margin-right: 130px;
+    margin-top: 50px;
+    font-size: 24px;
+    font-weight: 700;
+    
+    
+    
+}
+
+nav li a{
+    text-decoration: none;
+    color: #006FD1;
+    
+}
+
+li .home{
+    background-color: #006FD1;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 15px;
+    
+}
+/* Header Section Styles */
+
+.header{
+    background-image: url(/images/banner/banner2.png);
+    height: 800px;
+    width: 100%;
+    
+}
+
+.header-contain{
+    text-align: right;
+    width: 525px;
+    position: absolute;
+    right: 0;
+    padding-right: 130px;
+    
+}
+
+.header-title{
+    color: #151414;
+    font-weight: 700;
+    font-size: 65px;
+    padding-top: 100px;
+    
+    
+}
+
+.header-description{
+    color: #444343;
+    margin-top: 15px;
+    margin-bottom: 25px;
+}
+
+.header-contain a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.contact-btn{
+    background: #006FD1;
+    padding: 10px 20px;
+    border-radius: 15px;
+    border: none;
+    font-weight: 600;
+    font-size: 20px;
+    padding: 20px 25px;
+}
+
+/* About Myself Section Styles */
+
+.my-failures{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 130px;
+    
+}
+
+h2{
+    font-weight: 700;
+    font-size: 40px;
+    color: #151414;
+    margin-bottom: 24px;
+}
+
+.failures-description{
+    color: #444343;
+    margin-bottom: 16px;
+}
+
+.list li{
+    list-style: none;
+    margin-bottom: 12px;
+}
+
+.fa-check{
+    color: #16D887;
+    
+}
+
+.cb-text{
+    color: #444343;
+}
+
+/* My Skills Section Styles */
+
+
+.skill-title{
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.skill-container{
+    display: flex;
+    padding: 0 130px;
+    text-align: center;
+    
+}
+
+.skill-container h3{
+    padding-top: 24px;
+    
+}
+
+.skill-container p{
+    color: #737272;
+    padding-top: 16px;
+    
+}
+
+/* My Plans Section Styles */
+
+.plan-title{
+    font-weight: 700;
+    text-align: center;
+    margin: 70px 0 55px;
+}
+
+.plans-item{
+    display: flex;
+    justify-content: space-around;
+    padding: 0 130px;
+    
+}
+
+.plans-item h3{
+    padding-top: 24px;
+}
+
+.plans-item p{
+    color: #737272;
+    padding-top: 16px;
+
+}
+
+/* Bottom Banner Section Styles */
+
+.bottom-banner{
+    background-image: url(/images/gradient1.png) , url(/images/watch.png);
+    background-repeat: no-repeat, no-repeat;
+    border-radius: 8px;
+    width: 1120px;
+    height: 300px;
+    margin: 100px;
+    padding-top: 60px;
+    padding-left: 65px;
+}
+
+.banner-title{
+    color: #FFFFFF;
+}
+
+.call-btn a{
+    text-decoration: none;
+    color: #006FD1;
+}
+
+.call-btn{
+    width: 160px;
+    height: 64px;
+    background: #fff;
+    border: none;
+    border-radius: 5px;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+/* Footer Section Styles */
+
+footer{
+    background-color: black;
+}
+
+.contact-subscribe{
+    display: flex;
+    justify-content: center;
+    padding: 100px;
+    gap: 70px;
+    
+}
+
+.contact{
+    width: 485px;
+}
+
+.contact h2{
+    color: #fff;
+}
+.contact p{
+    color: #fff;
+    line-height: 26px;
+}
+
+.icon{
+    margin-top: 35px;
+}
+
+.icon img{
+    padding-right: 25px;
+}
+
+.subscribe h3{
+    color: #fff;
+}
+
+.subscribe h3{
+    margin-bottom: 15px;
+}
+
+#email{
+    width: 325px;
+    height: 64px;
+    background-color: black;
+    color: #F3F3F3;
+    font-size: 35;
+    margin-bottom: 16px;
+    border-radius: 8px;
+    padding: 2px 22px;
+    border: 1px solid #FFFFFF;
+}
+
+.subscribe-btn{
+    width: 170px;
+    height: 64px;
+    color: #006FD1;
+    background: #fff;
+    border: none;
+    border-radius: 8px;
+    font-weight: 600;
+    font-size: 20px;
+}
