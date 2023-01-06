@@ -37,7 +37,7 @@ li .home{
 /* Header Section Styles */
 
 .header{
-    background-image: url(/images/banner/banner2.png);
+    background-image: url(images/banner/banner2.png);
     height: 800px;
     width: 100%;
     
@@ -173,7 +173,7 @@ h2{
 /* Bottom Banner Section Styles */
 
 .bottom-banner{
-    background-image: url(/images/gradient1.png) , url(/images/watch.png);
+    background-image: url(images/gradient1.png) , url(images/watch.png);
     background-repeat: no-repeat, no-repeat;
     border-radius: 8px;
     width: 1120px;
