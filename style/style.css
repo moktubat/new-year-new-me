@@ -16,9 +16,6 @@ nav li{
     margin-top: 50px;
     font-size: 24px;
     font-weight: 700;
-    
-    
-    
 }
 
 nav li a{
@@ -40,7 +37,6 @@ li .home{
     background-image: url(../images/banner/banner2.png);
     height: 800px;
     width: 100%;
-    
 }
 
 .header-contain{
@@ -49,18 +45,18 @@ li .home{
     position: absolute;
     right: 0;
     padding-right: 130px;
-    
 }
 
 .header-title{
     color: #151414;
     font-weight: 700;
     font-size: 65px;
-    padding-top: 100px;
-    
-    
+    padding-top: 100px;    
 }
 
+span{
+    color: #28A745;
+}
 .header-description{
     color: #444343;
     margin-top: 15px;
